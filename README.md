@@ -1,2 +1,2 @@
 # prob_th_5
-Practical work for ITMO probability theory course
+Fifth practical work for ITMO probability theory course
