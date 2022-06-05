@@ -50,8 +50,9 @@ print("F*(", x_max + h/2, ") =", list(f.values())[-1])
 
 plt.figure()
 plt.title("Эмпирическая функция распределения")
-plt.plot(list(f), list(f.values()))
-plt.scatter(list(f), list(f.values()))
+for i in list(f):
+    plt.plot([i, i + h], [f[i], f[i]])
+# plt.plot(list(f), list(f.values()))
 plt.grid(True)
 plt.show()
 
